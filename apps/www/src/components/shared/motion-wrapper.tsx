@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Easing } from "framer-motion";
 import { ReactNode } from "react";
 
 interface MotionWrapperProps {
@@ -10,7 +10,7 @@ interface MotionWrapperProps {
   duration?: number;
   direction?: "up" | "down" | "left" | "right";
   distance?: number;
-  ease?: string | number[];
+  ease?: Easing;
   stagger?: number;
   once?: boolean;
   viewport?: {
