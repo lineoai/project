@@ -13,7 +13,7 @@ const AnimatedButton: React.FC<AnimatedButtonProps> = ({
 }) => {
   return (
     <>
-      <style jsx>{`
+      <style jsx global>{`
         .animated-button {
           --h-button: 48px;
           --w-button: 102px;
